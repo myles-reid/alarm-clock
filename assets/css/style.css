@@ -110,3 +110,27 @@ input[type=button] {
 .remove-alarm:hover {
   background-color: #a3101f;
 }
+
+@media screen and (max-width: 450px) {
+  .time-display {
+    font-size: 12rem;
+  }
+
+  .alarm-time {
+    font-size: 14px;
+  }
+
+  input[type=text]{
+    font-size: 16px;
+    font-weight: 500;
+    height: 3rem;
+    width: 6.5rem;
+  }
+
+  input[type=button] {
+    font-weight: 400;
+    font-size: 16px;
+    height: 3rem;
+    padding: 0px 10px;
+  }
+}
