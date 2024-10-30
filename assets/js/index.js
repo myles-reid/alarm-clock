@@ -86,7 +86,6 @@ alarmCheck();
   }
 }
 
-
 function borderCheck() {
   let minuteBorderCheck = inputMinutes.classList.contains('red-border');
   let hourBorderCheck = inputHours.classList.contains('red-border');
@@ -103,13 +102,11 @@ function borderCheck() {
   }
 }
 
- 
 function alarm() {
   if (alarmSetTime === time) {
     alarmSound.play();
   }
 }
-
 
 listen('click', setAlarmBtn, () => {
   convertInput();
