@@ -1,0 +1,5 @@
+Get time in function - (setInterval) every 1000ms, call it to update. Dont need to put seconds.
+  Dont put seconds in an alarm. Alarm will auto set to 0
+  Validate (if the set alarm is clicked before input focus, or inproper input
+  use regex to clear when a-z is inputed
+  when  alarm set, clear inputs, put the alarm time centered, clear inputs

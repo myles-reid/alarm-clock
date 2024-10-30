@@ -42,6 +42,10 @@ a {
   flex-direction: row-reverse;
 }
 
+.none {
+  display: none;
+}
+
 .relative {
   position: relative;
 }
