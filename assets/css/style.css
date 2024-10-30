@@ -61,6 +61,10 @@ body {
   width: 100%;
 }
 
+input[type=text].red-border {
+  border: 2px solid #c71326;
+}
+
 input[type=text]{
   font-size: 20px;
   font-weight: 500;
@@ -78,6 +82,8 @@ input[type=text]{
 input[type=text]:focus {
   border: 2px solid #3e4f67;
 }
+
+
 
 input[type=button] {
   font-weight: 600;
